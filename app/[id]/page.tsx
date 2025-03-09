@@ -18,6 +18,7 @@ export default function Home() {
       return await response.json();
     },
   });
+  console.log(data);
 
   return (
     <div className="flex justify-center items-center min-h-screen">
