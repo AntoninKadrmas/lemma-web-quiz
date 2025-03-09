@@ -1,5 +1,9 @@
 export default function Home() {
-  return <div>Nothing here</div>;
+  return (
+    <div className="flex w-screen h-screen justify-center items-center text-4xl">
+      Nothing here
+    </div>
+  );
 }
 
 // https://lemma-web-quiz.vercel.app/5c1dbe48-5a1d-41c2-b445-ce4d15aeb77c
