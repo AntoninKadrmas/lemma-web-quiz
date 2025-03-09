@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import { useQuery } from "react-query";
 import QuizForm from "./components/quizForm";
 
-const apiUrl = true
+const apiUrl = false
   ? "http://localhost:3000/api"
   : "https://lemma-web-quiz.vercel.app/api";
 export default function Home() {
