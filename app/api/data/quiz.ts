@@ -73,9 +73,9 @@ const quizData: Question[] = [
     question:
       "Kolikátý skončil LEMMA WEB na prvním brněnském zdravotnickém hackathonu?",
     answers: [
-      { classroom: "Nástěnka 3 patro", text: "1.", answerId: "G" },
-      { classroom: "Nástěnka 1 patro", text: "3.", answerId: "L" },
-      { classroom: "Nástěnka 2 patro", text: "2.", answerId: "E" },
+      { classroom: "Nástěnka 3. patro", text: "1.", answerId: "G" },
+      { classroom: "Nástěnka 1. patro", text: "3.", answerId: "L" },
+      { classroom: "Nástěnka 2. patro", text: "2.", answerId: "E" },
     ],
     correctId: "E",
   },

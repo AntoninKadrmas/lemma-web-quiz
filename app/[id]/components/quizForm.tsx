@@ -52,7 +52,7 @@ export default function QuizForm(props: { question: Question; id: string }) {
                   id={`answer-${index}`}
                 />
                 <Label htmlFor={`answer-${index}`} className="cursor-pointer">
-                  {answer.text}
+                  {answer.answerId}: {answer.text}
                 </Label>
               </div>
             ))}
