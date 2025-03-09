@@ -33,9 +33,10 @@ export default function QuizForm(props: { question: Question; id: string }) {
     <div className="w-full max-w-md mx-auto flex flex-col">
       <Card className="p-4 w-full max-w-md mx-auto">
         <CardContent>
-          <h2 className="text-xl font-semibold mb-4">
-            {props.question.question}
-          </h2>
+          <div className="flex gap-2 items-start">
+            <h1 className="text-xl font-bold">{props.question.index + 1}.</h1>
+            <h2 className="text-xl font-semibold">{props.question.question}</h2>
+          </div>
 
           {/* Radio Group to select an answer */}
           <RadioGroup

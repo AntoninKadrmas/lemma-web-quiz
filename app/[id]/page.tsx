@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import { useQuery } from "react-query";
 import QuizForm from "./components/quizForm";
 
-const apiUrl = false
+const apiUrl = true
   ? "http://localhost:3000/api"
   : "https://lemma-web-quiz.vercel.app/api";
 export default function Home() {
@@ -18,12 +18,12 @@ export default function Home() {
       return await response.json();
     },
   });
-  console.log(data);
 
   return (
     <div className="flex justify-center items-center min-h-screen">
       {isLoading && <p>Loading...</p>}
       {data && <QuizForm id={params?.id as string} question={data} />}
+      {!data && <p>Loading...</p>}
     </div>
   );
 }
