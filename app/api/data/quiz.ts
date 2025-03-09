@@ -7,11 +7,11 @@ const quizData: Question[] = [
     question: "Čím se mimojiné živí Roman?",
     answers: [
       {
-        classroom: "A105",
+        classroom: "Výtah",
         text: "Hlídá faxy pro nadnárodní firmu",
         answerId: "A",
       },
-      { classroom: "B206", text: "Učí děti matematiku", answerId: "B" },
+      { classroom: "C306", text: "Učí děti matematiku", answerId: "B" },
       {
         classroom: "C205",
         text: "Vyvíjí nástroj pro Národní Kybernetický Ústav",
@@ -27,12 +27,12 @@ const quizData: Question[] = [
       "Jak se dá v Tailwind CSS aplikovat styl pouze na hover stav elementu?",
     answers: [
       {
-        classroom: "C223",
+        classroom: "Nová lemma",
         text: "Použitím direktivy @hover",
         answerId: "J",
       },
       {
-        classroom: "Lysáková",
+        classroom: "Stará lemma",
         text: "Přidáním prefixu hover: ke třídě.",
         answerId: "K",
       },
@@ -50,17 +50,17 @@ const quizData: Question[] = [
     question: 'Co je to "key" prop v Reactu a k čemu slouží?',
     answers: [
       {
-        classroom: "B304",
+        classroom: "Schody dolů",
         text: "Je to unikátní identifikátor, který React používá k optimalizaci renderování listů.",
         answerId: "N",
       },
       {
-        classroom: "B204",
+        classroom: "C404",
         text: "Je to speciální atribut, který umožňuje vázat event handlery na DOM elementy",
         answerId: "M",
       },
       {
-        classroom: "C404",
+        classroom: "Schody nahorů",
         text: "Je to prop, který se používá k předávání dat mezi rodičovskou a potomkovskou komponentou.",
         answerId: "O",
       },
@@ -73,9 +73,9 @@ const quizData: Question[] = [
     question:
       "Kolikátý skončil LEMMA WEB na prvním brněnském zdravotnickém hackathonu?",
     answers: [
-      { classroom: "C223", text: "1.", answerId: "G" },
-      { classroom: "C323", text: "3.", answerId: "L" },
-      { classroom: "C123", text: "2.", answerId: "E" },
+      { classroom: "Nástěnka 3 patro", text: "1.", answerId: "G" },
+      { classroom: "Nástěnka 1 patro", text: "3.", answerId: "L" },
+      { classroom: "Nástěnka 2 patro", text: "2.", answerId: "E" },
     ],
     correctId: "E",
   },
@@ -98,17 +98,17 @@ const quizData: Question[] = [
       "Který konkrétní grant Fondu rozvoje vysokých škol přímo umožnil vybudování střihového pracoviště laboratoře LEMMA?",
     answers: [
       {
-        classroom: "A215",
+        classroom: "C223",
         text: "Grant FRVŠ 123/2000, 50 000 Kč",
         answerId: "B",
       },
       {
-        classroom: "stará lemma",
+        classroom: "Lysáková",
         text: "Grant FRVŠ 433/2001, 100 000 Kč",
         answerId: "A",
       },
       {
-        classroom: "stará lemma",
+        classroom: "C226",
         text: "Grant FRVŠ 567/2002, 75 000 Kč",
         answerId: "C",
       },
@@ -120,10 +120,10 @@ const quizData: Question[] = [
     index: 6,
     question: "Jak se jmenuje divoká šelma, kterou přechovává Gorazd?",
     answers: [
-      { classroom: "C223", text: "Karamel", answerId: "C" },
-      { classroom: "B226", text: "Capuccino", answerId: "A" },
+      { classroom: "Antonín", text: "Karamel", answerId: "C" },
+      { classroom: "Lukáš", text: "Capuccino", answerId: "A" },
       {
-        classroom: "C226",
+        classroom: "Roman",
         text: "Archibald, ničitel světů IV.",
         answerId: "B",
       },
