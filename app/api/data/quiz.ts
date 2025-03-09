@@ -4,11 +4,11 @@ const quizData: Question[] = [
   {
     id: "5c1dbe48-5a1d-41c2-b445-ce4d15aeb77c",
     index: 0,
-    question: "Jak se v HTML píše tag pro hlavní nadpis?",
+    question: "Čím se mimojiné živí Roman?",
     answers: [
-      { classroom: "A401", text: "h1", answerId: "A" },
-      { classroom: "B301", text: "title", answerId: "B" },
-      { classroom: "Lysáková", text: "heading", answerId: "C" },
+      { classroom: "A105", text: "Hlídá faxy pro nadnárodní firmu", answerId: "A" },
+      { classroom: "B206", text: "Učí děti matematiku", answerId: "B" },
+      { classroom: "C205", text: "Vyvíjí nástroj pro Národní Kybernetický Ústav", answerId: "C" },
     ],
     correctId: "A",
   },
@@ -19,12 +19,12 @@ const quizData: Question[] = [
       "Jak se dá v Tailwind CSS aplikovat styl pouze na hover stav elementu?",
     answers: [
       {
-        classroom: "A401",
+        classroom: "C223",
         text: "Použitím direktivy @hover",
         answerId: "J",
       },
       {
-        classroom: "B301",
+        classroom: "Lysáková",
         text: "Přidáním prefixu hover: ke třídě.",
         answerId: "K",
       },
@@ -42,17 +42,17 @@ const quizData: Question[] = [
     question: 'Co je to "key" prop v Reactu a k čemu slouží?',
     answers: [
       {
-        classroom: "A401",
+        classroom: "B304",
         text: "Je to unikátní identifikátor, který React používá k optimalizaci renderování listů.",
         answerId: "N",
       },
       {
-        classroom: "B301",
+        classroom: "B204",
         text: "Je to speciální atribut, který umožňuje vázat event handlery na DOM elementy",
         answerId: "M",
       },
       {
-        classroom: "C205",
+        classroom: "C404",
         text: "Je to prop, který se používá k předávání dat mezi rodičovskou a potomkovskou komponentou.",
         answerId: "O",
       },
@@ -65,9 +65,9 @@ const quizData: Question[] = [
     question:
       "Kolikátý skončil LEMMA WEB na prvním brněnském zdravotnickém hackathonu?",
     answers: [
-      { classroom: "A401", text: "1.", answerId: "G" },
-      { classroom: "B301", text: "3.", answerId: "L" },
-      { classroom: "C205", text: "2.", answerId: "E" },
+      { classroom: "C223", text: "1.", answerId: "G" },
+      { classroom: "C323", text: "3.", answerId: "L" },
+      { classroom: "C123", text: "2.", answerId: "E" },
     ],
     correctId: "E",
   },
@@ -77,9 +77,9 @@ const quizData: Question[] = [
     question:
       "Z jakého předmětu vystupuje Petr Sojka v nejkrásnější upoutávce na festival, kterou všichni milujeme?",
     answers: [
-      { classroom: "A102", text: "Váza", answerId: "J" },
-      { classroom: "B123", text: "Sloup", answerId: "S" },
-      { classroom: "C205", text: "Auto", answerId: "R" },
+      { classroom: "A502", text: "Váza", answerId: "J" },
+      { classroom: "A415", text: "Sloup", answerId: "S" },
+      { classroom: "A307", text: "Auto", answerId: "R" },
     ],
     correctId: "J",
   },
@@ -92,10 +92,10 @@ const quizData: Question[] = [
       {
         classroom: "A215",
         text: "Grant FRVŠ 123/2000, 50 000 Kč",
-        answerId: "A",
+        answerId: "B",
       },
       {
-        classroom: "knihovna",
+        classroom: "stará lemma",
         text: "Grant FRVŠ 433/2001, 100 000 Kč",
         answerId: "A",
       },
@@ -112,7 +112,7 @@ const quizData: Question[] = [
     index: 6,
     question: "Jak se jmenuje divoká šelma, kterou přechovává Gorazd?",
     answers: [
-      { classroom: "A226", text: "Karamel", answerId: "C" },
+      { classroom: "C223", text: "Karamel", answerId: "C" },
       { classroom: "B226", text: "Capuccino", answerId: "A" },
       {
         classroom: "C226",
