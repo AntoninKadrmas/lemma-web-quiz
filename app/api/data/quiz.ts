@@ -7,9 +7,9 @@ const quizData: Question[] = [
     answers: [
       { classroom: "A401", text: "h1", answerId: "A" },
       { classroom: "B301", text: "title", answerId: "B" },
-      { classroom: "Lysáková", text: "heading", answerId: "A" },
+      { classroom: "Lysáková", text: "heading", answerId: "C" },
     ],
-    correctId: "A401",
+    correctId: "A",
   },
   {
     id: "88688c82-982a-4b96-bc45-415084d1cad1",
