@@ -33,7 +33,7 @@ export default function QuizForm(props: { question: Question; id: string }) {
     <div className="w-full max-w-md mx-auto flex flex-col">
       <Card className="p-4 w-full max-w-md mx-auto">
         <CardContent>
-          <div className="flex gap-2 items-start">
+          <div className="flex gap-2 items-start mb-3">
             <h1 className="text-xl font-bold">{props.question.index + 1}.</h1>
             <h2 className="text-xl font-semibold">{props.question.question}</h2>
           </div>
@@ -42,6 +42,7 @@ export default function QuizForm(props: { question: Question; id: string }) {
           <RadioGroup
             value={selectedAnswer || ""}
             onValueChange={setSelectedAnswer}
+            disabled={!!submittedAnswer}
             className="space-y-2"
           >
             {props.question.answers.map((answer, index) => (
