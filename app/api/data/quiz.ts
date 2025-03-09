@@ -92,7 +92,7 @@ const quizData: Question[] = [
     correctId: "J",
   },
   {
-    id: "cba8154f-2d7d-4360-9c12-f8413cf12c8b",
+    id: "41b20ca0-e558-4cea-884b-be30175738ec",
     index: 5,
     question:
       "Který konkrétní grant Fondu rozvoje vysokých škol přímo umožnil vybudování střihového pracoviště laboratoře LEMMA?",
@@ -116,7 +116,7 @@ const quizData: Question[] = [
     correctId: "A",
   },
   {
-    id: "71dc1a1b-2e5b-4397-a0dd-a1289dfc8635",
+    id: "67c9f839-75e2-44f7-92fd-8bbb6bb8d856",
     index: 6,
     question: "Jak se jmenuje divoká šelma, kterou přechovává Gorazd?",
     answers: [
