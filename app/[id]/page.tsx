@@ -21,6 +21,7 @@ export default function Home() {
 
   return (
     <div className="flex justify-center items-center min-h-screen">
+      {isLoading && <p>Loading...</p>}
       {data && <QuizForm id={params?.id as string} question={data} />}
     </div>
   );
