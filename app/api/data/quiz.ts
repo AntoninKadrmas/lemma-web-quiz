@@ -120,15 +120,15 @@ const quizData: Question[] = [
     index: 6,
     question: "Jak se jmenuje divoká šelma, kterou přechovává Gorazd?",
     answers: [
-      { classroom: "Antonín", text: "Karamel", answerId: "C" },
-      { classroom: "Lukáš", text: "Capuccino", answerId: "A" },
+      { classroom: "Antonín", text: "Karamel", answerId: "T" },
+      { classroom: "Lukáš", text: "Capuccino", answerId: "R" },
       {
         classroom: "Roman",
         text: "Archibald, ničitel světů IV.",
-        answerId: "B",
+        answerId: "S",
       },
     ],
-    correctId: "C",
+    correctId: "T",
   },
 ];
 
