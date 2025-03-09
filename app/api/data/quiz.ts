@@ -2,18 +2,26 @@ import { Question } from "./model";
 
 const quizData: Question[] = [
   {
-    id: "5c1dbe48-5a1d-41c2-b445-ce4d15aeb77c",
+    id: "88688c82-982a-4b96-bc45-415084d1cad1",
     index: 0,
     question: "Čím se mimojiné živí Roman?",
     answers: [
-      { classroom: "A105", text: "Hlídá faxy pro nadnárodní firmu", answerId: "A" },
+      {
+        classroom: "A105",
+        text: "Hlídá faxy pro nadnárodní firmu",
+        answerId: "A",
+      },
       { classroom: "B206", text: "Učí děti matematiku", answerId: "B" },
-      { classroom: "C205", text: "Vyvíjí nástroj pro Národní Kybernetický Ústav", answerId: "C" },
+      {
+        classroom: "C205",
+        text: "Vyvíjí nástroj pro Národní Kybernetický Ústav",
+        answerId: "C",
+      },
     ],
     correctId: "A",
   },
   {
-    id: "88688c82-982a-4b96-bc45-415084d1cad1",
+    id: "71dc1a1b-2e5b-4397-a0dd-a1289dfc8635",
     index: 1,
     question:
       "Jak se dá v Tailwind CSS aplikovat styl pouze na hover stav elementu?",
@@ -37,7 +45,7 @@ const quizData: Question[] = [
     correctId: "K",
   },
   {
-    id: "191c5f86-f9a5-4fde-8bde-1d8052583ff1",
+    id: "cba8154f-2d7d-4360-9c12-f8413cf12c8b",
     index: 2,
     question: 'Co je to "key" prop v Reactu a k čemu slouží?',
     answers: [
@@ -60,7 +68,7 @@ const quizData: Question[] = [
     correctId: "N",
   },
   {
-    id: "67c9f839-75e2-44f7-92fd-8bbb6bb8d856",
+    id: "6217df2e-4694-45d8-a155-0c68f8b8aa2e",
     index: 3,
     question:
       "Kolikátý skončil LEMMA WEB na prvním brněnském zdravotnickém hackathonu?",
@@ -72,7 +80,7 @@ const quizData: Question[] = [
     correctId: "E",
   },
   {
-    id: "41b20ca0-e558-4cea-884b-be30175738ec",
+    id: "191c5f86-f9a5-4fde-8bde-1d8052583ff1",
     index: 4,
     question:
       "Z jakého předmětu vystupuje Petr Sojka v nejkrásnější upoutávce na festival, kterou všichni milujeme?",
@@ -84,7 +92,7 @@ const quizData: Question[] = [
     correctId: "J",
   },
   {
-    id: "71dc1a1b-2e5b-4397-a0dd-a1289dfc8635",
+    id: "cba8154f-2d7d-4360-9c12-f8413cf12c8b",
     index: 5,
     question:
       "Který konkrétní grant Fondu rozvoje vysokých škol přímo umožnil vybudování střihového pracoviště laboratoře LEMMA?",
@@ -108,7 +116,7 @@ const quizData: Question[] = [
     correctId: "A",
   },
   {
-    id: "cba8154f-2d7d-4360-9c12-f8413cf12c8b",
+    id: "71dc1a1b-2e5b-4397-a0dd-a1289dfc8635",
     index: 6,
     question: "Jak se jmenuje divoká šelma, kterou přechovává Gorazd?",
     answers: [

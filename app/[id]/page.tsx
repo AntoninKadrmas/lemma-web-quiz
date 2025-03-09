@@ -26,3 +26,11 @@ export default function Home() {
     </div>
   );
 }
+// sojka je 2
+// vytah 6
+// cedulka na chodbe 7
+// schody 1
+// nastenka 2 patro 3
+// a502 5
+// lysakova 4
+// na me 8
